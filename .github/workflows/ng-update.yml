@@ -2,6 +2,7 @@ name: 'Update Angular Action'
 on:
   schedule:
     - cron: '30 5 * * 3' # Every Wednesday at 5:30 AM
+  workflow_dispatch: # 👈 Required for Run Workflow button
 
 jobs:
   ngxUptodate:
